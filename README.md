@@ -10,7 +10,7 @@ http://preview.yejoopark.com/typeprotect/
 Benefits
 =
 1. Minimal yet extremely usuable user interface. 
-2. Lightweight - 3.817kb
+2. Lightweight - ~4kb
 3. Simple - one single file, no external CSS
 
 
