@@ -24,4 +24,4 @@ Instruction
 
 4. To create a sign-out link, add the following line of code. 
  
-<a href="typeprotect.php?signout=1">Sign Out</a>
+&lt;a href="typeprotect.php?signout=1"&gt;Sign Out&lt;/a&gt;
