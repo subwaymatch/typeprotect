@@ -17,7 +17,7 @@ Benefits
 Instruction
 =
 1. Copy & paste <strong>typeprotect.php</strong> to your directory
-2. Open up <strong>typeprotect.php</strong> and change the value for $password to your own SHA-1 hashed password (http://hash.online-convert.com/sha1-generator).
+2. Open up <strong>typeprotect.php</strong> and change the value for $password to your own SHA-1 hashed password (http://hash.online-convert.com/sha1-generator). The default password is <em>test</em>, which is "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3" when SHA-1 hashed. 
 3. Include the following code on the first line of the document you'd like to protect.
 
 	<strong><?php require('typeprotect.php'); ?></strong>
