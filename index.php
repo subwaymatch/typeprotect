@@ -1,6 +1,4 @@
-<?php
-	require('typeprotect.php');
-?>
+<?php require('typeprotect.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">

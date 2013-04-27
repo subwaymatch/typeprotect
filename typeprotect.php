@@ -32,6 +32,7 @@
 	}
 	
 	if( !$_SESSION['signedIn']):
+		
 ?>
 
 <!DOCTYPE html>
