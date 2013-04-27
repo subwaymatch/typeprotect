@@ -16,12 +16,12 @@ Benefits
 
 Instruction
 =
-1. Copy & paste typeprotect.php to your directory
-2. Open up typeprotect.php and change the value for $password to your own SHA-1 hashed password (http://hash.online-convert.com/sha1-generator).
+1. Copy & paste <strong>typeprotect.php</strong> to your directory
+2. Open up <strong>typeprotect.php</strong> and change the value for $password to your own SHA-1 hashed password (http://hash.online-convert.com/sha1-generator).
 3. Include the following code on the first line of the document you'd like to protect.
 
-<?php require('typeprotect.php'); ?>
+<strong><?php require('typeprotect.php'); ?></strong>
 
 4. To create a sign-out link, add the following line of code. 
  
-&lt;a href="typeprotect.php?signout=1"&gt;Sign Out&lt;/a&gt;
+<strong>&lt;a href="typeprotect.php?signout=1"&gt;Sign Out&lt;/a&gt;</strong>
