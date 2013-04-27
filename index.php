@@ -22,7 +22,7 @@
 		}
 
 		#box {
-			width: 300px;
+			width: 400px;
 			background: #fff;
 			padding: 30px 50px 50px 50px;
 			border: 1px solid #eee; 
