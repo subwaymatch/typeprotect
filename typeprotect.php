@@ -48,10 +48,11 @@
 		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css">
 		<style>
 			
-			html, body {
+			html {
 				height: 100%;
+				background: #f5f5f5;
 			}
-			
+
 			body {
 				font: normal 16px/26px Helvetica, Arial, sans-serif;
 				background: #f5f5f5;
@@ -80,13 +81,6 @@
 				margin-top: 20px; 
 			}
 			
-			@media only screen and (max-width: 479px) {
-				#box-signIn {
-					width: 240px; 
-					padding: 20px 30px 30px 30px;
-				}
-			}
-			
 			form#signIn {
 				
 			}
@@ -104,8 +98,8 @@
 				form#signIn input[type="text"] {
 					color: #777;
 					border: 1px solid #eee;
-					padding: 20px 9%; 
-					width: 80%; 
+					padding: 20px; 
+					width: 258px; 
 					outline: none; 
 					display: block; 
 				}
@@ -137,7 +131,21 @@
 						color: #ff5544; 
 						background: #000; 
 					}
-					
+			
+			/* For phone portrait view */
+			@media only screen and (max-width: 479px) {
+				#box-signIn {
+					width: 240px; 
+					padding: 20px 30px 30px 30px;
+				}
+
+				form#signIn input[type="password"],
+				form#signIn input[type="text"] {
+					padding: 15px; 
+					width: 209px; 
+				}
+			}
+
 		</style>
 	</head>
 	
