@@ -80,9 +80,9 @@
 	<div id="box">
 		<h1>Success!</h1>
 
-		<p>You can only view this page after entering the correct password</p>
+		<p>You can only view this page after entering the correct password. </p>
 
-		<p>Want to create a sign-out link? It's as easy as copying and pasting the code below</p>
+		<p>Want to create a sign-out link? It's as easy as copying and pasting the code below. </p>
 
 		<code>
 			&lt;a href="typeprotect.php?signout=1"&gt;Sign Out&lt;/a&gt;
