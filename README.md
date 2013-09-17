@@ -1,22 +1,22 @@
-typeprotect
+Overview
 ===========
 
 Typeprotect allows you to password-protect any of your pages with a single line of PHP code. 
 
 
-=
-Demo page
+Demo
+===========
 http://preview.typebig.com/typeprotect/
 
 Benefits
-=
+===========
 1. Minimal yet extremely usuable user interface. 
 2. Lightweight - ~4kb
 3. Simple - one single file, no external CSS
 
 
-Instruction
-=
+Instructions
+===========
 1. Copy & paste <strong>typeprotect.php</strong> to your directory
 2. Open up <strong>typeprotect.php</strong> and change the value for $password to your own SHA-1 hashed password (http://hash.online-convert.com/sha1-generator). The default password is <em>test</em>, which is "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3" when SHA-1 hashed. 
 
