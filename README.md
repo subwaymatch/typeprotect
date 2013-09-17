@@ -6,7 +6,6 @@ Typeprotect allows you to password-protect any of your pages with a single line 
 
 =
 Demo page
-
 http://preview.typebig.com/typeprotect/
 
 Benefits
