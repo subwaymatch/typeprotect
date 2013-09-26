@@ -30,7 +30,7 @@
 		}
 		
 		h1 {
-			color: #22aa33;
+			color: #22eedd;
 			font: bold 18px/28px Helvetica, Arial, sans-serif;
 			padding-bottom: 15px;
 			border-bottom: 1px solid #eee;
@@ -44,12 +44,12 @@
 
 		code {
 			font: normal 15px/25px "Courier New", monospace;
-			color: #22aa33;
+			color: #22eedd;
 		}
 
 		a.button {
 			color: #fff; 
-			background: #22aa33; 
+			background: #22eedd; 
 			font: bold 15px/25px Helvetica, Arial, sans-serif;
 			text-transform: uppercase;
 			letter-spacing: 2px; 
@@ -68,7 +68,7 @@
 		}
 		
 			a.button:hover {
-				color: #22aa33; 
+				color: #22eedd; 
 				background: #000; 
 			}
 		
