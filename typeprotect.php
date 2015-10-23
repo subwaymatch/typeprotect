@@ -8,7 +8,7 @@
 	session_start();
 
 	// Initialize wrong password check variable
-	$wrongPass = false;
+	$isWrongPass = false;
 	
 	if( !isset( $_SESSION['signedIn'] ) ) {
 		$_SESSION['signedIn'] = false;
@@ -27,7 +27,7 @@
 		if ( sha1( $_POST['password'] ) == $password ) {
 			$_SESSION['signedIn'] = true;
 		} else {
-			$wrongPass = true;
+			$isWrongPass = true;
 		}
 	}
 	
@@ -154,7 +154,7 @@
 		<div id="box-signIn">
 			<h1>Protected Page</h1>
 			
-			<?php if( $wrongPass ) { ?>
+			<?php if( $isWrongPass ) { ?>
 				<div class="error">Wrong password<br />Default password is "test".</div>
 			<?php } ?>
 			
