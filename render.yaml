@@ -1,0 +1,13 @@
+# Render Blueprint — deploy a free TypeProtect demo.
+# 1. Push this repo to GitHub.
+# 2. In the Render dashboard: New > Blueprint, and point it at your repo.
+# 3. Set TYPEPROTECT_PASSWORD_HASH to your own password_hash() value
+#    (leave it unset to keep the demo password "test").
+services:
+  - type: web
+    name: typeprotect-demo
+    runtime: docker
+    plan: free
+    envVars:
+      - key: TYPEPROTECT_PASSWORD_HASH
+        sync: false # set your own in the dashboard; unset = demo password "test"
