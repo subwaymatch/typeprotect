@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * TypeProtect — password-protect any PHP page with a single line:
+ * TypeProtect: password-protect any PHP page with a single line:
  *
  *     <?php require __DIR__ . '/typeprotect.php'; ?>
  *
@@ -14,7 +14,7 @@ declare(strict_types=1);
  * Generate a hash with:
  *   php -r 'echo password_hash("your-password", PASSWORD_DEFAULT), PHP_EOL;'
  *
- * The bundled default hashes the password "test" — for the demo only.
+ * The bundled default hashes the password "test", for the demo only.
  * Never ship the default to production.
  */
 
@@ -68,7 +68,7 @@ $redirect = static function (string $url): never {
     exit;
 };
 
-// The path of the current request, without query string — used for self-redirects.
+// The path of the current request, without query string, used for self-redirects.
 $selfUrl = strtok((string) ($_SERVER['REQUEST_URI'] ?? '/'), '?') ?: '/';
 
 $isWrongPass = false;
@@ -104,10 +104,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $csrfOk = hash_equals((string) $_SESSION['csrf'], (string) ($_POST['csrf'] ?? ''));
 
     if ($lockRemaining > 0) {
-        // Locked out — ignore the attempt.
+        // Locked out, ignore the attempt.
         $isWrongPass = true;
     } elseif (!$csrfOk) {
-        // Bad or missing CSRF token — reject without touching the counter.
+        // Bad or missing CSRF token, reject without touching the counter.
         $isWrongPass = true;
     } elseif (password_verify((string) ($_POST['password'] ?? ''), $passwordHash)) {
         // Success: reset counters and rotate the session id (anti-fixation).

@@ -1,4 +1,4 @@
-# TypeProtect demo — runnable on any container host (Render, Railway, Fly.io…).
+# TypeProtect demo. Runs on any container host (Render, Railway, Fly.io).
 FROM php:8.3-cli-alpine
 
 WORKDIR /var/www/html
